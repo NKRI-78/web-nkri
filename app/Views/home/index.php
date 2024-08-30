@@ -1,25 +1,17 @@
 <?= view('layouts/head'); ?>
 
-<?php
-
-use Config\Services;
-
-$request = Services::request();
-
-?>
-
 <?= view('layouts/navbar'); ?>
 
-<section class="flex-grow bg-transparent text-white p-20 mx-12">
+<section class="flex-grow bg-transparent text-white p-20 md:mx-12">
   <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
     
     <div class="flex flex-col justify-center">
-      <h1 class="text-5xl font-bold">
+      <h1 class="text-2xl md:text-5xl font-bold">
         Welcome to Inovatif78<br>
         Your Partner to <br>
         Improve Business
       </h1>
-      <p class="text-lg my-10">
+      <p class="text-base md:text-lg my-10">
         Kami menghadirkan inovasi untuk mengeskalasi proses </br> bisnis Anda pada bidang IT, menjawab segala kebutuhan </br> Anda, dengan menjaga kualitas pelayanan dengan </br> prosedur kolaborasi dan validasi kerja yang terstruktur </br> rapih demi hasil kinerja yang optimal.
       </p>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -88,7 +80,7 @@ $request = Services::request();
     </div>
 </section>
 
-<section class="py-12">
+<section class="py-12 mx-10">
   <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
     
     <div class="flex items-center justify-center">
@@ -102,7 +94,7 @@ $request = Services::request();
   </div>
 </section>
 
-<section class="py-12">
+<section class="pb-12 md:pt-12 mx-10">
   <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
     
     <div class="flex items-center justify-center">
@@ -114,7 +106,7 @@ $request = Services::request();
     </div>
     
     <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-4.png') ?>" alt="p-5" class="w-full h-auto rounded-lg shadow-lg">
+      <img src="<?= base_url('public/assets/images/p-5.png') ?>" alt="p-5" class="w-full h-auto rounded-lg shadow-lg">
     </div>
 
   </div>
