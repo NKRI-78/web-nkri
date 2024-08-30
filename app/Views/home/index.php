@@ -46,4 +46,50 @@ $request = Services::request();
   </div>
 </section>
 
+<section class="bg-transparent py-32">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    
+    <div class="relative p-5">
+        <div class="p-6 mt-6 h-56 text-center shadow-lg card-about">
+            <h3 class="text-xl font-bold my-4 text-white">User Centric</h3>
+            <p class="text-white text-sm">Kami berorientasi pada
+            kebutuhan klien</p>
+        </div>
+        <img src="<?= base_url('public/assets/images/user-centric.png') ?>" class="absolute block mx-auto ic-about ic-user-centric" alt="user-centric">
+    </div>
+    
+    <div class="relative p-5">
+        <div class="p-6 mt-6 h-56 text-center shadow-lg card-about">
+            <h3 class="text-xl font-bold my-4 text-white">Innovations</h3>
+            <p class="text-white text-sm">Kami menghadirkan inovasi
+            untuk mengeskalasi proses
+            bisnis anda</p>
+        </div>
+        <img src="<?= base_url('public/assets/images/innovations.png') ?>" class="absolute block mx-auto ic-about ic-innovations" alt="innovations">
+    </div>
+
+    <div class="relative p-5">
+        <div class="p-6 mt-6 h-56 text-center shadow-lg card-about">
+            <h3 class="text-xl font-bold my-4 text-white">Integritas</h3>
+            <p class="text-white text-sm">Komitmen dengan spsifikasi
+            dan timeline pengerjaan serta
+            menjaga komunikasi dengan
+            laporan progres rutin
+            merupakan usaha kami untuk
+            menjaga integritas</p>
+        </div>
+        <img src="<?= base_url('public/assets/images/integrity.png') ?>" class="absolute block mx-auto ic-about ic-integrity" alt="integrity">
+    </div>
+
+    <div class="relative p-5">
+        <div class="p-6 mt-6 h-56 text-center shadow-lg card-about">
+            <h3 class="text-xl font-bold my-4 text-white">Kualitas</h3>
+            <p class="text-white text-sm">Menjaga kualitas pelayanan dengan prosedur kolaborasi dan validasi kerja yang terstruktur rapih demi hasil kinerja maksimal</p>
+        </div>
+        <img src="<?= base_url('public/assets/images/quality.png') ?>" class="absolute block mx-auto ic-about ic-quality" alt="quality">
+    </div>
+
+    </div>
+</section>
+
 <?= view('layouts/script'); ?>

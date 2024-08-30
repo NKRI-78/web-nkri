@@ -18,6 +18,33 @@
     .active {
       color: #BAF200;
     }
+    .ic-about {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    .card-about {
+      background: linear-gradient(to bottom right, #BAF200, #000000);
+      border: 1px solid #fff;
+      border-radius: 20px;
+    }
+    .ic-user-centric {
+      top: 20px;
+      width: 65px;
+    }
+    .ic-innovations {
+      top: 20px;
+      width: 55px;
+    }
+    .ic-integrity {
+      top: 20px;
+      width: 50px;
+    }
+    .ic-quality {
+      top: 20px;
+      width: 25px;
+    }
     .ornament {
       background-image: url('<?= base_url('public/assets/images/ornament.png') ?>');
       background-repeat: no-repeat;
@@ -28,4 +55,3 @@
 </head>
 
 <body class="flex flex-col bg-black min-h-screen ornament">
-  
