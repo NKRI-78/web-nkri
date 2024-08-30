@@ -63,4 +63,4 @@
   </style>
 </head>
 
-<body class="flex flex-col min-h-screen bg-body ornament">
+<body class="flex flex-col min-h-screen bg-body">
