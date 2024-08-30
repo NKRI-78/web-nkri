@@ -24,7 +24,7 @@ $uri = $request->uri->getSegment(1);
     <ul class="hidden md:flex md:space-x-10">
       <li><a href="<?= base_url('/') ?>" class="text-lg <?= $uri == "" ? "active" : "" ?>">Home</a></li>
       <li><a href="#" class="text-lg">Portofolio</a></li>
-      <li><a href="<?= base_url('/about-us') ?>" class="text-lg <?= $uri == "about-us" ? "active" : "" ?>">About us</a></li>
+      <li><a href="#about-us" class="text-lg <?= $uri == "about-us" ? "active" : "" ?>">About us</a></li>
       <li><a href="#" class="text-lg">Service</a></li>
       <li><a href="#" class="text-lg">Contact us</a></li>
     </ul>
@@ -35,7 +35,7 @@ $uri = $request->uri->getSegment(1);
     <ul class="flex flex-col space-y-4 p-4">
       <li><a href="<?= base_url('/') ?>" class="text-lg <?= $uri == "" ? "active" : "" ?>">Home</a></li>
       <li><a href="#" class="text-lg">Portofolio</a></li>
-      <li><a href="<?= base_url('/about-us') ?>" class="text-lg <?= $uri == "about-us" ? "active" : "" ?>">About us</a></li>
+      <li><a href="#about-us" class="text-lg <?= $uri == "about-us" ? "active" : "" ?>">About us</a></li>
       <li><a href="#" class="text-lg">Service</a></li>
       <li><a href="#" class="text-lg">Contact us</a></li>
     </ul>
