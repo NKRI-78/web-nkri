@@ -26,3 +26,6 @@
     }
   </style>
 </head>
+
+<body class="flex flex-col bg-black min-h-screen ornament">
+  
