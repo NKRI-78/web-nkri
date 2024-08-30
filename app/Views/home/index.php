@@ -93,7 +93,7 @@
     </div>
     
     <div class="flex flex-col justify-center">
-      <img src="<?= base_url('public/assets/images/image-journey.png') ?>" alt="home" class="w-full h-auto rounded-lg shadow-lg">
+      <img src="<?= base_url('public/assets/images/image-journey.png') ?>" alt="home" class="rounded-lg shadow-lg block" style="width: 450px; margin: 0 auto;">
       <h1 class="text-2xl mt-20 md:text-5xl font-bold">
         This Our Journey
         With My Partners
@@ -122,89 +122,89 @@
 </section> -->
 
 <section class="pb-12 md:pt-12 mx-10">
-  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-0">
     
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-1.png') ?>" alt="p-3" class="w-full h-auto rounded-lg shadow-lg">
+    <div class="flex items-center justify-center md:justify-end">
+      <img src="<?= base_url('public/assets/images/p-1.png') ?>" alt="p-3" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
     
     <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-2.png') ?>" alt="p-4" class="w-full h-auto rounded-lg shadow-lg">
+      <img src="<?= base_url('public/assets/images/p-2.png') ?>" alt="p-4" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
     
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-3.png') ?>" alt="p-5" class="w-full h-auto rounded-lg shadow-lg">
-    </div>
-
-  </div>
-
-  <div class="container mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-    
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-4.png') ?>" alt="p-3" class="w-full h-auto rounded-lg shadow-lg">
-    </div>
-    
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-5.png') ?>" alt="p-4" class="w-full h-auto rounded-lg shadow-lg">
-    </div>
-    
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-6.png') ?>" alt="p-5" class="w-full h-auto rounded-lg shadow-lg">
+    <div class="flex items-center justify-center md:justify-start">
+      <img src="<?= base_url('public/assets/images/p-3.png') ?>" alt="p-5" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
 
   </div>
 
-  <div class="container mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div class="container mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-0">
     
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-7.png') ?>" alt="p-3" class="w-full h-auto rounded-lg shadow-lg">
+    <div class="flex items-center justify-center md:justify-end">
+      <img src="<?= base_url('public/assets/images/p-4.png') ?>" alt="p-3" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
     
     <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-8.png') ?>" alt="p-4" class="w-full h-auto rounded-lg shadow-lg">
+      <img src="<?= base_url('public/assets/images/p-5.png') ?>" alt="p-4" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
     
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-9.png') ?>" alt="p-5" class="w-full h-auto rounded-lg shadow-lg">
-    </div>
-
-  </div>
-
-  <div class="container mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-    
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-10.png') ?>" alt="p-3" class="w-full h-auto rounded-lg shadow-lg">
-    </div>
-    
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-11.png') ?>" alt="p-4" class="w-full h-auto rounded-lg shadow-lg">
-    </div>
-    
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-12.png') ?>" alt="p-5" class="w-full h-auto rounded-lg shadow-lg">
+    <div class="flex items-center justify-center md:justify-start">
+      <img src="<?= base_url('public/assets/images/p-6.png') ?>" alt="p-5" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
 
   </div>
 
-  <div class="container mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div class="container mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-0">
     
-    <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-13.png') ?>" alt="p-3" class="w-full h-auto rounded-lg shadow-lg">
+    <div class="flex items-center justify-center md:justify-end">
+      <img src="<?= base_url('public/assets/images/p-7.png') ?>" alt="p-3" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
     
     <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-14.png') ?>" alt="p-4" class="w-full h-auto rounded-lg shadow-lg">
+      <img src="<?= base_url('public/assets/images/p-8.png') ?>" alt="p-4" class="w-80 h-auto rounded-lg shadow-lg">
+    </div>
+    
+    <div class="flex items-center justify-center md:justify-start">
+      <img src="<?= base_url('public/assets/images/p-9.png') ?>" alt="p-5" class="w-80 h-auto rounded-lg shadow-lg">
+    </div>
+
+  </div>
+
+  <div class="container mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-0">
+    
+    <div class="flex items-center justify-center md:justify-end">
+      <img src="<?= base_url('public/assets/images/p-10.png') ?>" alt="p-3" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
     
     <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-15.png') ?>" alt="p-5" class="w-full h-auto rounded-lg shadow-lg">
+      <img src="<?= base_url('public/assets/images/p-11.png') ?>" alt="p-4" class="w-80 h-auto rounded-lg shadow-lg">
+    </div>
+    
+    <div class="flex items-center justify-center md:justify-start">
+      <img src="<?= base_url('public/assets/images/p-12.png') ?>" alt="p-5" class="w-80 h-auto rounded-lg shadow-lg">
+    </div>
+
+  </div>
+
+  <div class="container mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-0">
+    
+    <div class="flex items-center justify-center md:justify-end">
+      <img src="<?= base_url('public/assets/images/p-13.png') ?>" alt="p-3" class="w-80 h-auto rounded-lg shadow-lg">
+    </div>
+    
+    <div class="flex items-center justify-center">
+      <img src="<?= base_url('public/assets/images/p-14.png') ?>" alt="p-4" class="w-80 h-auto rounded-lg shadow-lg">
+    </div>
+    
+    <div class="flex items-center justify-center md:justify-start">
+      <img src="<?= base_url('public/assets/images/p-15.png') ?>" alt="p-5" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
 
   </div>
 
   <div class="container mx-auto mt-10">
     <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/p-16.png') ?>" alt="p-5" class="w-96 h-auto rounded-lg shadow-lg">
+      <img src="<?= base_url('public/assets/images/p-16.png') ?>" alt="p-5" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
     
   </div>
