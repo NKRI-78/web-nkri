@@ -15,6 +15,9 @@
     body {
       font-family: 'Montserrat'
     }
+    .bg-body {
+      background: #0e1111;
+    }
     .active {
       color: #BAF200;
     }
@@ -25,7 +28,8 @@
       right: 0;
     }
     .card-about {
-      background: linear-gradient(to bottom right, #BAF200, #000000);
+      background: rgb(0,0,0);
+      background: linear-gradient(300deg, rgba(0,0,0,1) 0%, rgba(80,98,20,1) 100%, rgba(186,242,0,1) 100%); 
       border: 1px solid #fff;
       border-radius: 20px;
     }
@@ -54,4 +58,4 @@
   </style>
 </head>
 
-<body class="flex flex-col bg-black min-h-screen ornament">
+<body class="flex flex-col min-h-screen bg-body ornament">

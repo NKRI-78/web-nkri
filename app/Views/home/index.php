@@ -8,14 +8,11 @@ $request = Services::request();
 
 ?>
 
-<!-- Navbar -->
 <?= view('layouts/navbar'); ?>
 
-<!-- Hero Section with 2 Columns -->
 <section class="flex-grow bg-transparent text-white p-20 mx-12">
   <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
     
-    <!-- Left Column (Text Content) -->
     <div class="flex flex-col justify-center">
       <h1 class="text-5xl font-bold">
         Welcome to Inovatif78<br>
@@ -38,9 +35,8 @@ $request = Services::request();
     </div>
     </div>
 
-    <!-- Right Column (Optional Content) -->
     <div class="flex items-center justify-center">
-      <img src="<?= base_url('public/assets/images/home.png') ?>" alt="Placeholder Image" class="w-full h-auto rounded-lg shadow-lg">
+      <img src="<?= base_url('public/assets/images/home.png') ?>" alt="home" class="w-full h-auto rounded-lg shadow-lg">
     </div>
 
   </div>
@@ -90,6 +86,38 @@ $request = Services::request();
     </div>
 
     </div>
+</section>
+
+<section class="py-12">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+    
+    <div class="flex items-center justify-center">
+      <img src="<?= base_url('public/assets/images/p-1.png') ?>" alt="p-2" class="w-full h-auto rounded-lg shadow-lg">
+    </div>
+    
+    <div class="flex items-center justify-center">
+      <img src="<?= base_url('public/assets/images/p-2.png') ?>" alt="p-2" class="w-full h-auto rounded-lg shadow-lg">
+    </div>
+
+  </div>
+</section>
+
+<section class="py-12">
+  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    <div class="flex items-center justify-center">
+      <img src="<?= base_url('public/assets/images/p-3.png') ?>" alt="p-3" class="w-full h-auto rounded-lg shadow-lg">
+    </div>
+    
+    <div class="flex items-center justify-center">
+      <img src="<?= base_url('public/assets/images/p-4.png') ?>" alt="p-4" class="w-full h-auto rounded-lg shadow-lg">
+    </div>
+    
+    <div class="flex items-center justify-center">
+      <img src="<?= base_url('public/assets/images/p-4.png') ?>" alt="p-5" class="w-full h-auto rounded-lg shadow-lg">
+    </div>
+
+  </div>
 </section>
 
 <?= view('layouts/script'); ?>
