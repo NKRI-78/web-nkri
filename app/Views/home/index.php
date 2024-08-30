@@ -211,4 +211,40 @@
 
 </section>
 
+
+<footer class="bg-[#BAF200] text-black py-4 mt-auto">
+    <div class="container mx-auto flex flex-col md:flex-row justify-center items-center">
+
+     <div class="mb-4 md:mb-0 mr-0 md:mr-8">
+        <a href="#" class="text-lg font-bold">
+          <img src="<?= base_url('public/assets/images/logo-footer.png') ?>" alt="Logo" class="h-20">
+        </a>
+      </div>
+
+      <div class="text-center md:text-start mb-4 md:mb-0">
+        <p class="text-lg font-bold">PT NARA KAHAM RAYA INVESTAMA</p>
+        <p class="text-sm">JL. Kemang Selatan, GG Bambu Kuning No.3B, Desa/Kelurahan Cilandak Timur, Kec. </br>
+        Pasar Minggu, Kota Adm. Jakarta Selatan, Provinsi DKI Jakarta, 12560</p>
+        <div class="mt-4 flex flex-col justify-center md:flex-row md:justify-between">
+          <div class="flex justify-center md:flex-row">
+            <img src="<?= base_url('public/assets/images/phone.png') ?>" class="w-5" alt="ic-phone">
+            <p class="font-bold ml-4">021-27842125</p>
+          </div>
+          <div class="flex justify-center md:flex-row">
+            <img src="<?= base_url('public/assets/images/email.png') ?>" class="w-5" alt="ic-email">
+            <p class="ml-4 font-bold">customercare@nkrioffice.com</p>  
+          </div>
+        </div>
+      </div>
+
+      <div class="ml-0 md:ml-8 my-4 md:my-0 relative">
+        <img src="<?= base_url('public/assets/images/ic-gmaps.png') ?>" class="absolute w-6" alt="ic-gmaps" style="left: 15px;">
+        <a href="https://www.google.com/maps/search/JL.+Kemang+Selatan,+GG+Bambu+Kuning+No.3B,+Desa%2FKelurahan+Cilandak+Timur,+Kec.+%3C%2Fbr%3E+++++++++Pasar+Minggu,+Kota+Adm.+Jakarta+Selatan,+Provinsi+DKI%C2%A0Jakarta,%C2%A012560/@-6.276091,106.8143064,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDgyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="bg-white text-center text-black text-sm py-4 pl-10 pr-4 ml-2 font-bold rounded-lg">
+          Open Google Maps
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
 <?= view('layouts/script'); ?>
