@@ -35,6 +35,7 @@ $uri = $request->uri->getSegment(1);
       <li><a href="<?= base_url('/') ?>" class="text-lg <?= $uri == "" ? "active" : "" ?>">Home</a></li>
       <li><a href="#portfolio" class="text-lg">Portofolio</a></li>
       <li><a href="#about-us" class="text-lg <?= $uri == "about-us" ? "active" : "" ?>">About us</a></li>
+      <li><a href="#contact-us" class="text-lg">Contact us</a></li>
     </ul>
   </div>
 </header>
