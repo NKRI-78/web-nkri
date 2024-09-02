@@ -6,8 +6,8 @@
   <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
     
     <div class="flex flex-col justify-center">
-      <h1 class="text-2xl md:text-5xl font-bold">
-        Welcome to Inovatif78<br>
+      <h1 class="text-2xl md:text-4xl font-bold">
+        Welcome to NKRI Office<br>
         Your Partner to <br>
         Improve Business
       </h1>
@@ -85,7 +85,7 @@
     </div>
 </section>
 
-<section class="flex-grow bg-transparent text-white p-20 md:mx-12">
+<section class="flex-grow bg-transparent text-white p-20 md:mx-12" id="portfolio">
   <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
 
     <div class="flex items-center justify-center">
@@ -107,6 +107,91 @@
   </div>
 </section>
 
+<section class="py-12 mx-10">
+
+  <div class="flex flex-col md:flex-row items-center md:divide-x md:divide-gray-300">
+
+    <div class="w-full md:w-1/3 flex flex-col items-center p-8 p-8 h-[140vh] md:h-[200vh]">
+      <div>
+        <img src="<?= base_url('public/assets/images/info-penting.png') ?>" alt="info-penting" class="w-60 mx-auto h-auto block rounded-lg">
+        <p class="text-2xl font-bold mt-4 text-center text-white">InfoPenting</p>
+      </div>
+
+      <div class="flex flex-col mt-12 p-8 h-[180vh]">
+        <div class="flex items-center justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/tentang-loker.png') ?>" alt="Tentang Loker" class="w-80 h-auto rounded-lg">
+        </div>
+
+        <div class="flex items-center mt-12 justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/tentang-voucher.png') ?>" alt="Tentang Voucher" class="w-80 h-auto rounded-lg">
+        </div>
+
+        <div class="flex items-center mt-12 justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/tentang-game.png') ?>" alt="Tentang Game" class="w-80 h-auto rounded-lg">
+        </div>
+
+        <div class="flex items-center mt-40 justify-center md:justify-end">
+          <a href="https://infopenting.id/" target="_blank">
+            <img src="<?= base_url('public/assets/images/info-penting-button.png') ?>" alt="Info Penting" class="w-80 h-auto rounded-lg">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full md:w-1/3 flex flex-col items-center p-8 h-[140vh] md:h-[200vh]">
+      <div>
+        <img src="<?= base_url('public/assets/images/mobile-development.png') ?>" alt="mobile-development" class="w-60  mx-auto h-auto block rounded-lg">
+        <p class="text-2xl font-bold mt-4 text-center text-white">Mobile Development</p>
+      </div>
+
+      <div class="flex flex-col mt-12 p-8 h-[180vh]">
+        <div class="flex items-center justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/fasi.png') ?>" alt="Fasi" class="w-80 h-auto rounded-lg">
+        </div>
+
+        <div class="flex items-center mt-12 justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/mini-cooper.png') ?>" alt="MINI Cooper" class="w-80 h-auto rounded-lg">
+        </div>
+
+        <div class="flex items-center mt-12 justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/hog-anak-elang.png') ?>" alt="HOG Anak Elang" class="w-80 h-auto rounded-lg">
+        </div>
+
+        <div class="flex items-center mt-12 justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/kosgoro.png') ?>" alt="Kosgoro" class="w-80 h-auto rounded-lg">
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full md:w-1/3 flex flex-col items-center p-8 h-[140vh] md:h-[200vh]">
+      <div>
+        <img src="<?= base_url('public/assets/images/mobile-development.png') ?>" alt="mobile-development" class="w-60 mx-auto h-auto block rounded-lg">
+        <p class="text-2xl font-bold mt-4 text-center text-white">Website Development</p>
+      </div>
+
+      <div class="flex flex-col mt-12 p-8 h-[180vh]">
+        <div class="flex items-center justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/fspmi.png') ?>" alt="Fspmi" class="w-80 h-auto rounded-lg">
+        </div>
+
+        <div class="flex items-center mt-12 justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/megakonten.png') ?>" alt="MegaKonten" class="w-80 h-auto rounded-lg">
+        </div>
+
+        <div class="flex items-center mt-12 justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/atj.png') ?>" alt="Atj" class="w-80 h-auto rounded-lg">
+        </div>
+
+        <div class="flex items-center mt-12 justify-center md:justify-end">
+          <img src="<?= base_url('public/assets/images/sman4medan.png') ?>" alt="Sman4medan" class="w-80 h-auto rounded-lg">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
 <!-- <section class="py-12 mx-10">
   <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
     
@@ -121,10 +206,10 @@
   </div>
 </section> -->
 
-<section class="pb-12 md:pt-12 mx-10">
-  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-0">
-    
-    <div class="flex items-center justify-center md:justify-end">
+<!-- <section class="pb-12 md:pt-12 mx-10">
+  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-0"> -->
+
+    <!-- <div class="flex items-center justify-center md:justify-end">
       <img src="<?= base_url('public/assets/images/p-1.png') ?>" alt="p-3" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
     
@@ -200,32 +285,30 @@
       <img src="<?= base_url('public/assets/images/p-15.png') ?>" alt="p-5" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
 
-  </div>
+  </div> -->
 
-  <div class="container mx-auto mt-10">
+  <!-- <div class="container mx-auto mt-10">
     <div class="flex items-center justify-center">
       <img src="<?= base_url('public/assets/images/p-16.png') ?>" alt="p-5" class="w-80 h-auto rounded-lg shadow-lg">
     </div>
-    
-  </div>
+  </div> -->
 
-</section>
+<!-- </section> -->
 
-
-<footer class="bg-[#BAF200] text-black py-4 mt-auto">
-    <div class="container mx-auto flex flex-col md:flex-row justify-center items-center">
+<footer class="bg-[#BAF200] text-black py-12 mt-auto" id="contact-us">
+    <div class="container mx-auto flex flex-col justify-center items-center">
 
      <div class="mb-4 md:mb-0 mr-0 md:mr-8">
         <a href="#" class="text-lg font-bold">
-          <img src="<?= base_url('public/assets/images/logo-footer.png') ?>" alt="Logo" class="h-20">
+          <img src="<?= base_url('public/assets/images/logo-footer.png') ?>" alt="Logo" class="h-32">
         </a>
       </div>
 
-      <div class="text-center md:text-start mb-4 md:mb-0">
-        <p class="text-lg font-bold">PT NARA KAHAM RAYA INVESTAMA</p>
+      <div class="text-center md:text-start my-8 md:mb-0">
+        <p class="text-lg text-center font-bold">PT NARA KAHAM RAYA INVESTAMA</p>
         <p class="text-sm">JL. Kemang Selatan, GG Bambu Kuning No.3B, Desa/Kelurahan Cilandak Timur, Kec. </br>
         Pasar Minggu, Kota Adm. Jakarta Selatan, Provinsi DKI Jakarta, 12560</p>
-        <div class="mt-4 flex flex-col justify-center md:flex-row md:justify-between">
+        <div class="mt-8 flex flex-col justify-center md:flex-row md:justify-evenly">
           <div class="flex justify-center md:flex-row">
             <img src="<?= base_url('public/assets/images/phone.png') ?>" class="w-5" alt="ic-phone">
             <p class="font-bold ml-4">021-27842125</p>
@@ -237,7 +320,7 @@
         </div>
       </div>
 
-      <div class="ml-0 md:ml-8 my-4 md:my-0 relative">
+      <div class="ml-0 md:ml-8 my-4 md:my-12 relative">
         <img src="<?= base_url('public/assets/images/ic-gmaps.png') ?>" class="absolute w-6" alt="ic-gmaps" style="left: 15px;">
         <a href="https://www.google.com/maps/search/JL.+Kemang+Selatan,+GG+Bambu+Kuning+No.3B,+Desa%2FKelurahan+Cilandak+Timur,+Kec.+%3C%2Fbr%3E+++++++++Pasar+Minggu,+Kota+Adm.+Jakarta+Selatan,+Provinsi+DKI%C2%A0Jakarta,%C2%A012560/@-6.276091,106.8143064,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDgyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="bg-white text-center text-black text-sm py-4 pl-10 pr-4 ml-2 font-bold rounded-lg">
           Open Google Maps
