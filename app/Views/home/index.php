@@ -111,7 +111,7 @@
 
   <div class="flex flex-col md:flex-row items-center md:divide-x md:divide-gray-300">
 
-    <div class="w-full md:w-1/3 flex flex-col items-center p-8 p-8 h-[140vh] md:h-[200vh]">
+    <div class="w-full md:w-1/3 flex flex-col items-center p-8 p-8 h-[160vh] md:h-[200vh]">
       <div>
         <img src="<?= base_url('public/assets/images/info-penting.png') ?>" alt="info-penting" class="w-60 mx-auto h-auto block rounded-lg">
         <p class="text-2xl font-bold mt-4 text-center text-white">InfoPenting</p>
@@ -138,7 +138,7 @@
       </div>
     </div>
 
-    <div class="w-full md:w-1/3 flex flex-col items-center p-8 h-[140vh] md:h-[200vh]">
+    <div class="w-full md:w-1/3 flex flex-col items-center p-8 h-[160vh] md:h-[200vh]">
       <div>
         <img src="<?= base_url('public/assets/images/mobile-development.png') ?>" alt="mobile-development" class="w-60  mx-auto h-auto block rounded-lg">
         <p class="text-2xl font-bold mt-4 text-center text-white">Mobile Development</p>
@@ -163,7 +163,7 @@
       </div>
     </div>
 
-    <div class="w-full md:w-1/3 flex flex-col items-center p-8 h-[140vh] md:h-[200vh]">
+    <div class="w-full md:w-1/3 flex flex-col items-center p-8 h-[160vh] md:h-[200vh]">
       <div>
         <img src="<?= base_url('public/assets/images/mobile-development.png') ?>" alt="mobile-development" class="w-60 mx-auto h-auto block rounded-lg">
         <p class="text-2xl font-bold mt-4 text-center text-white">Website Development</p>
