@@ -117,7 +117,7 @@
         <p class="text-2xl font-bold mt-4 text-center text-white">InfoPenting</p>
       </div>
 
-      <div class="flex flex-col mt-12 p-8 h-[125vh] md:h-[180vh]">
+      <div class="flex flex-col mt-12 p-8 h-[1000px] md:h-[1400px]">
         <div class="flex items-center justify-center md:justify-end">
           <img src="<?= base_url('public/assets/images/tentang-loker.png') ?>" alt="Tentang Loker" class="w-80 h-auto rounded-lg">
         </div>
@@ -144,7 +144,7 @@
         <p class="text-2xl font-bold mt-4 text-center text-white">Mobile Development</p>
       </div>
 
-      <div class="flex flex-col mt-12 p-8 h-[125vh] md:h-[180vh]">
+      <div class="flex flex-col mt-12 p-8 h-[1000px] md:h-[1400px]">
         <div class="flex items-center justify-center md:justify-end">
           <img src="<?= base_url('public/assets/images/fasi.png') ?>" alt="Fasi" class="w-80 h-auto rounded-lg">
         </div>
@@ -169,7 +169,7 @@
         <p class="text-2xl font-bold mt-4 text-center text-white">Website Development</p>
       </div>
 
-      <div class="flex flex-col mt-12 p-8 h-[125vh] md:h-[180vh]">
+      <div class="flex flex-col mt-12 p-8 h-[1000px] md:h-[1400px]">
         <div class="flex items-center justify-center md:justify-end">
           <img src="<?= base_url('public/assets/images/fspmi.png') ?>" alt="Fspmi" class="w-80 h-auto rounded-lg">
         </div>
