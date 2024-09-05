@@ -212,7 +212,7 @@
         </div>
         <div class="flex justify-center md:flex-row">
           <img src="<?= base_url('public/assets/images/email.png') ?>" class="w-5" alt="ic-email">
-          <p class="ml-4 font-bold">customercare@nkrioffice.com</p>  
+          <p class="ml-4 font-bold">customercare@infopenting.id</p>  
         </div>
       </div>
     </div>
